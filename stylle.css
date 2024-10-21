@@ -1,0 +1,92 @@
+.top{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px
+}
+.up_buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 400px;
+}
+.log_in{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+.get_started{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.sec_top{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.sec_up{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px}
+.search{
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+}    
+.body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 30px;
+    
+}
+.big{
+    width: 400px;
+    height: 400px;
+}
+.pro1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.prof1{
+    display: grid;
+    grid-template-columns: 50px 120px;
+    gap: 20px;
+
+}
+.box{
+    
+    background-color: white;
+    border-radius: 30px;
+}
+body{
+    background-color: rgb(156, 223, 246);
+    padding: 200px;
+    border-radius: 30px;
+}
+.small{
+    width: 200px;
+    height: 200px;
+}
+.pro2{
+    display: grid;
+    grid-template-columns: 200px 500px;
+    gap: 20px;
+}
+.prof2{
+    display: grid;
+    grid-template-columns: 50px 120px;
+    gap: 20px;
+}
+.sec_row{
+    gap: 30px;
+    margin-top: 100px;
+}
